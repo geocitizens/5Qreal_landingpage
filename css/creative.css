@@ -89,6 +89,11 @@ p {
   margin-bottom: 1rem;
 }
 
+
+.table-row{
+cursor:pointer;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;

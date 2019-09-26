@@ -54,5 +54,9 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
-
+  $(document).ready(function($) {
+      $(".table-row").click(function() {
+          window.document.location = $(this).data("href");
+      });
+  });
 })(jQuery); // End of use strict
