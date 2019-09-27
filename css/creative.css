@@ -94,6 +94,13 @@ p {
 cursor:pointer;
 }
 
+
+.fa-envelope {
+    color: white;
+  }
+
+
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
